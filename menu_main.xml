@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/it2"
+        android:title="Home"
+        android:icon="@drawable/homepage">
+    </item>
+<item android:title="Account">
+    <menu>
+        <item android:id="@+id/it3"
+            android:title="Our Feedbacks"
+            android:icon="@drawable/feedus">
+        </item>
+        <item android:id="@+id/it4"
+            android:title="Log Out"
+            android:icon="@drawable/logout">
+
+        </item>
+
+    </menu>
+</item>
+<item android:title="Manolia Wedding Planner">
+    <menu>
+        <item android:id="@+id/it5"
+            android:title="Comment Us"
+            android:icon="@drawable/feedbackus">
+        </item>
+        <item android:id="@+id/it6"
+            android:title="Play Music"
+            android:icon="@drawable/playmusic"/>
+        <item android:id="@+id/it7"
+            android:title="Stop Music"
+            android:icon="@drawable/baseline_music_off_24"/>
+
+    </menu>
+</item>
+</menu>
